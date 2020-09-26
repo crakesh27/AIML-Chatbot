@@ -17,13 +17,13 @@ pip install python3-weather-api
 python chatbot.py
 ```
 Input examples:
->hello
->My name is Rakesh
->Toss a coin
->I am feeling hungry
->Weather in Hyderabad
->Roll a die
->Good bye
+>hello\
+>My name is Rakesh\
+>Toss a coin\
+>I am feeling hungry\
+>Weather in Hyderabad\
+>Roll a die\
+>Good bye\
 
 
 ## Contributing
