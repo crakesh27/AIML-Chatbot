@@ -1,6 +1,6 @@
 # AIML-Chatbot
 
-AIML-Chatbot is a simple heuristic pattern matching rules chatbot similar to ALICE. The program uses an XML Schema called AIML (Artificial Intelligence Markup Language) for specifying the heuristic conversation rules. For more rules, you can download from [Google ALICE AIML Set](https://code.google.com/archive/p/aiml-en-us-foundation-alice/)
+AIML-Chatbot is a simple heuristic pattern matching rules based chatbot, similar to ALICE. The program uses an XML Schema called AIML (Artificial Intelligence Markup Language) for specifying the rules. For more rules, you can download from [Google ALICE AIML Set](https://code.google.com/archive/p/aiml-en-us-foundation-alice/)
 
 ## Installation
 
