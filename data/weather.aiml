@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>WEATHER</pattern>
+        <template>
+            weather
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WEATHER *</pattern>
+        <template>
+            <srai>WEATHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* WEATHER</pattern>
+        <template>
+            <srai>WEATHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* WEATHER *</pattern>
+        <template>
+            <srai>WEATHER</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CLIMATE *</pattern>
+        <template>
+            <srai>WEATHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CLIMATE *</pattern>
+        <template>
+            <srai>WEATHER</srai>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TOMORROW</pattern>
+        <template>
+            1
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAY</pattern>
+        <template>
+            0
+        </template>
+    </category>
+
+    <category>
+        <pattern>DAY AFTER *</pattern>
+        <template>
+            2
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALL DAYS</pattern>
+        <template>
+            5
+        </template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>
+            none
+        </template>
+    </category>
+    
+</aiml>

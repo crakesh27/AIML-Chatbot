@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>EATERIE</pattern>
+        <template>
+                <think><set name = "topic">EATERIES</set></think> 
+                I know a few.
+                Do you want to know where they are located?
+        </template>
+    </category>
+    <category>
+        <pattern>_ EATERIES * BITS</pattern>
+        <template>
+                <srai>EATERIE</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>I AM * HUNGRY</pattern>
+        <template>
+                <srai>EATERIE</srai>
+        </template>
+    </category>
+    <topic name="EATERIES">
+        <category>
+            <pattern>YES</pattern>
+            <template>
+                <random>
+                    <li>Yumpies at mess-1 lawns</li>
+                    <li>Bits n Bytes at mess-1 lawns</li>
+                    <li>Chai Cofee Company at mess-2 lawns</li>
+                </random>
+            </template>
+        </category>
+    </topic>
+</aiml>

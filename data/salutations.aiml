@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<category><pattern>GOODBYE</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category>
+	<pattern>I AM *</pattern>
+	<template>
+		Hello <set name = "name"> <star/></set>
+	</template>  
+</category>
+<category>
+	<pattern>MY NAME IS *</pattern>
+	<template>
+		Hello <set name = "name"> <star/></set>
+	</template>  
+</category>
+<category><pattern>END</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BYEBYE *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>HOLA</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>YOU ARE WELCOME</pattern>
+<template><random><li>The pleasure was all mine.</li><li>Don't mention it.</li><li>Polite people are nice.</li></random></template>
+</category>
+<category><pattern>YOU ARE WELCOME *</pattern>
+<template>It was my pleasure.</template>
+</category>
+<category><pattern>HAVE TO GO</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>MORNING</pattern>
+<template><srai>good morning</srai></template>
+</category>
+<category><pattern>GOODNITE *</pattern>
+<template><srai>goodnight</srai></template>
+</category>
+<category><pattern>MY PLEASRE</pattern>
+<template>The pleasure was indeed mine.</template>
+</category>
+<category><pattern>IT MEANS HELLO</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>IT IS GOOD TALKING TO YOU</pattern>
+<template>Nice chatting with you too, <get name="name"/>.</template>
+</category>
+<category><pattern>CATCH YOU LATER</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BYE</pattern>
+<template>
+	<random>      
+		<li>Bye <get name="name"/>.</li>             
+		<li>Goodbye <get name="name"/>.</li>           
+		<li>See you later!,<get name="name"/>.</li>      
+		<li>Thanks for chatting, <get name="name"/>.</li>     
+	</random>
+</template>
+</category>
+<category><pattern>GOOD MORNING</pattern>
+<template>Hello and how are you this morning?</template>
+</category>
+<category><pattern>HOW ARE YOU *</pattern>
+<template>Good and how are you ?</template>
+</category>
+<category><pattern>HOW ARE YOU</pattern>
+<template>Good and how are you ?</template>
+</category>
+<category><pattern>GOOD BYE</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>GOOD DAY</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>GOOD NIGHT</pattern>
+<template>Goodnight, <get name="name"/>.</template>
+</category>
+<category><pattern>GOOD NITE</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BY BY</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>IS ANYONE THERE</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>GET LOST</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>HEY THERE</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HI *</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>HI</pattern>
+<template><srai>hello</srai></template>
+</category>
+<category><pattern>BYE BYE</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>BYE BYE *</pattern>
+<template><srai>bye</srai></template>
+</category>
+<category><pattern>HELLO</pattern>
+<template><random><li><srai>HI</srai></li><li>Hi there!</li></random></template>
+</category>
+</aiml>

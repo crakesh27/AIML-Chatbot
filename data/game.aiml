@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category><pattern>TOSS A COIN</pattern>
+    <template><srai>coin</srai></template>
+    </category>
+    <category><pattern>FLIP A COIN</pattern>
+    <template><srai>coin</srai></template>
+    </category>
+    <category><pattern>HEADS OR TAILS</pattern>
+    <template><srai>coin</srai></template>
+    </category>
+    <category><pattern>COIN</pattern>
+    <template>
+        <random>      
+            <li>Heads</li>             
+            <li>Tails</li>  
+        </random>
+    </template>
+    </category>
+    <category><pattern>ROLL A DIE</pattern>
+    <template>
+        <random>      
+            <li>1</li>             
+            <li>2</li>
+            <li>3</li>  
+            <li>4</li>  
+            <li>5</li>  
+            <li>6</li>    
+        </random>
+    </template>
+    </category>
+</aiml>
