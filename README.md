@@ -23,7 +23,7 @@ Input examples:
 >I am feeling hungry\
 >Weather in Hyderabad\
 >Roll a die\
->Good bye\
+>Good bye
 
 
 ## Contributing
